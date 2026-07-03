@@ -1,4 +1,4 @@
-# MLOps Task 0 — Batch Signal Pipeline
+# MLOps — Batch Signal Pipeline
 
 A minimal, reproducible, observable batch job that reads OHLCV data, computes a
 rolling mean on `close`, derives a binary trading signal, and writes structured
