@@ -1,0 +1,8 @@
+2026-07-03T22:01:21+0530 | INFO | Job start
+2026-07-03T22:01:21+0530 | INFO | Config loaded + validated: seed=42, window=5, version=v1
+2026-07-03T22:01:21+0530 | INFO | Random seed set to 42
+2026-07-03T22:01:21+0530 | INFO | Rows loaded: 10000
+2026-07-03T22:01:21+0530 | INFO | Rolling mean computed with window=5 (first 4 rows are NaN, excluded from signal)
+2026-07-03T22:01:21+0530 | INFO | Binary signal generated: 1 if close > rolling_mean else 0
+2026-07-03T22:01:21+0530 | INFO | Metrics summary: {'version': 'v1', 'rows_processed': 10000, 'metric': 'signal_rate', 'value': 0.4991, 'latency_ms': 90, 'seed': 42, 'status': 'success'}
+2026-07-03T22:01:21+0530 | INFO | Job end | status=success
